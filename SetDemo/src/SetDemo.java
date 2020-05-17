@@ -17,7 +17,7 @@ public class SetDemo {
         list.add("George");
 
         //System.out.println(list);
-        Set<String> set= new HashSet<>();
+        Set<String> set= new HashSet<>(); //innerclass, I think
 
         set.addAll(list);// Set allows no duplicates, consequently they will be eliminated by adding them to a set
         System.out.println(set);
